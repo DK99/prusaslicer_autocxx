@@ -1,0 +1,12 @@
+[package]
+name = "prusaslicer_autocxx"
+version = "0.1.0"
+authors = ["DK99 <kaleb.dk@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+cxx = "1.0.20"
+autocxx = { git = "https://github.com/DK99/autocxx", branch = "main", version="0.5.0" }
+
+[build-dependencies]
+autocxx-build = { git = "https://github.com/DK99/autocxx", branch = "main", version="0.5.0" }
