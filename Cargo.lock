@@ -32,7 +32,7 @@ dependencies = [
 [[package]]
 name = "autocxx"
 version = "0.5.0"
-source = "git+https://github.com/DK99/autocxx?branch=main#8b73ca15639cd81ff52728dfb770068592fda6a0"
+source = "git+https://github.com/DK99/autocxx?branch=main#cf56c6bd64023b61de806352006c60ce4ce3b07b"
 dependencies = [
  "autocxx-engine",
  "autocxx-macro",
@@ -65,7 +65,7 @@ dependencies = [
 [[package]]
 name = "autocxx-build"
 version = "0.5.0"
-source = "git+https://github.com/DK99/autocxx?branch=main#8b73ca15639cd81ff52728dfb770068592fda6a0"
+source = "git+https://github.com/DK99/autocxx?branch=main#cf56c6bd64023b61de806352006c60ce4ce3b07b"
 dependencies = [
  "autocxx-engine",
  "env_logger",
@@ -75,7 +75,7 @@ dependencies = [
 [[package]]
 name = "autocxx-engine"
 version = "0.5.0"
-source = "git+https://github.com/DK99/autocxx?branch=main#8b73ca15639cd81ff52728dfb770068592fda6a0"
+source = "git+https://github.com/DK99/autocxx?branch=main#cf56c6bd64023b61de806352006c60ce4ce3b07b"
 dependencies = [
  "autocxx-bindgen",
  "autocxx-parser",
@@ -96,7 +96,7 @@ dependencies = [
 [[package]]
 name = "autocxx-macro"
 version = "0.5.0"
-source = "git+https://github.com/DK99/autocxx?branch=main#8b73ca15639cd81ff52728dfb770068592fda6a0"
+source = "git+https://github.com/DK99/autocxx?branch=main#cf56c6bd64023b61de806352006c60ce4ce3b07b"
 dependencies = [
  "autocxx-parser",
  "proc-macro-error",
@@ -106,7 +106,7 @@ dependencies = [
 [[package]]
 name = "autocxx-parser"
 version = "0.5.0"
-source = "git+https://github.com/DK99/autocxx?branch=main#8b73ca15639cd81ff52728dfb770068592fda6a0"
+source = "git+https://github.com/DK99/autocxx?branch=main#cf56c6bd64023b61de806352006c60ce4ce3b07b"
 dependencies = [
  "log",
  "proc-macro2",
@@ -303,9 +303,9 @@ checksum = "830d08ce1d1d941e6b30645f1a0eb5643013d835ce3779a5fc208261dbe10f55"
 
 [[package]]
 name = "libc"
-version = "0.2.81"
+version = "0.2.82"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1482821306169ec4d07f6aca392a4681f66c75c9918aa49641a2595db64053cb"
+checksum = "89203f3fba0a3795506acaad8ebce3c80c0af93f994d5a1d7a0b1eeb23271929"
 
 [[package]]
 name = "libloading"
@@ -410,9 +410,9 @@ dependencies = [
 
 [[package]]
 name = "regex"
-version = "1.4.2"
+version = "1.4.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "38cf2c13ed4745de91a5eb834e11c00bcc3709e773173b2ce4c56c9fbde04b9c"
+checksum = "d9251239e129e16308e70d853559389de218ac275b515068abc96829d05b948a"
 dependencies = [
  "aho-corasick",
  "memchr",
@@ -422,9 +422,9 @@ dependencies = [
 
 [[package]]
 name = "regex-syntax"
-version = "0.6.21"
+version = "0.6.22"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3b181ba2dcf07aaccad5448e8ead58db5b742cf85dfe035e2227f137a539a189"
+checksum = "b5eb417147ba9860a96cfe72a0b93bf88fee1744b5636ec99ab20c1aa9376581"
 
 [[package]]
 name = "rustc-hash"
@@ -446,9 +446,9 @@ checksum = "8ea5119cdb4c55b55d432abb513a0429384878c15dde60cc77b1c99de1a95a6a"
 
 [[package]]
 name = "syn"
-version = "1.0.57"
+version = "1.0.58"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4211ce9909eb971f111059df92c45640aad50a619cf55cd76476be803c4c68e6"
+checksum = "cc60a3d73ea6594cd712d830cc1f0390fd71542d8c8cd24e70cc54cdfd5e05d5"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -475,9 +475,9 @@ dependencies = [
 
 [[package]]
 name = "thread_local"
-version = "1.0.1"
+version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d40c6d1b69745a6ec6fb1ca717914848da4b44ae29d9b3080cbee91d72a69b14"
+checksum = "bb9bc092d0d51e76b2b19d9d85534ffc9ec2db959a2523cdae0697e2972cd447"
 dependencies = [
  "lazy_static",
 ]
