@@ -9,13 +9,13 @@ include_cpp! {
     safety!(unsafe)
 
     //generate!("Print")
-    generate!("Slic3r::PrintConfigDef")
+    generate!("Slic3r::DynamicPrintConfig")
     //generate!("Slic3r::Model")
 }
 
 fn main() {
     //println!("{:?}", ffi::Model);
-    //ffi::Slic3r::DynamicPrintConfig();
+    //ffi::Slic3r::PrintConfig();
     //let config = ffi::DynamicPrintConfig();
     //let model = ffi::Model::read_from_file("/tmp/cupsTest/rust.stl");
 }

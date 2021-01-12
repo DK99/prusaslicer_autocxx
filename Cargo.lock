@@ -32,7 +32,7 @@ dependencies = [
 [[package]]
 name = "autocxx"
 version = "0.5.0"
-source = "git+https://github.com/DK99/autocxx?branch=main#cf56c6bd64023b61de806352006c60ce4ce3b07b"
+source = "git+https://github.com/DK99/autocxx?branch=main#3ddb255f69e3084aa8c7b9ada421a4a3bf9f3181"
 dependencies = [
  "autocxx-engine",
  "autocxx-macro",
@@ -65,7 +65,7 @@ dependencies = [
 [[package]]
 name = "autocxx-build"
 version = "0.5.0"
-source = "git+https://github.com/DK99/autocxx?branch=main#cf56c6bd64023b61de806352006c60ce4ce3b07b"
+source = "git+https://github.com/DK99/autocxx?branch=main#3ddb255f69e3084aa8c7b9ada421a4a3bf9f3181"
 dependencies = [
  "autocxx-engine",
  "env_logger",
@@ -75,7 +75,7 @@ dependencies = [
 [[package]]
 name = "autocxx-engine"
 version = "0.5.0"
-source = "git+https://github.com/DK99/autocxx?branch=main#cf56c6bd64023b61de806352006c60ce4ce3b07b"
+source = "git+https://github.com/DK99/autocxx?branch=main#3ddb255f69e3084aa8c7b9ada421a4a3bf9f3181"
 dependencies = [
  "autocxx-bindgen",
  "autocxx-parser",
@@ -91,12 +91,13 @@ dependencies = [
  "quote",
  "syn",
  "unzip-n",
+ "version_check",
 ]
 
 [[package]]
 name = "autocxx-macro"
 version = "0.5.0"
-source = "git+https://github.com/DK99/autocxx?branch=main#cf56c6bd64023b61de806352006c60ce4ce3b07b"
+source = "git+https://github.com/DK99/autocxx?branch=main#3ddb255f69e3084aa8c7b9ada421a4a3bf9f3181"
 dependencies = [
  "autocxx-parser",
  "proc-macro-error",
@@ -106,7 +107,7 @@ dependencies = [
 [[package]]
 name = "autocxx-parser"
 version = "0.5.0"
-source = "git+https://github.com/DK99/autocxx?branch=main#cf56c6bd64023b61de806352006c60ce4ce3b07b"
+source = "git+https://github.com/DK99/autocxx?branch=main#3ddb255f69e3084aa8c7b9ada421a4a3bf9f3181"
 dependencies = [
  "log",
  "proc-macro2",
@@ -319,18 +320,18 @@ dependencies = [
 
 [[package]]
 name = "link-cplusplus"
-version = "1.0.4"
+version = "1.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f96aa785c87218ec773df6c510af203872b34e2df2cf47d6e908e5f36231e354"
+checksum = "8f1becd27d473556dc610b8afa1636ef90747b574a84553bc11e82371d5ef2d1"
 dependencies = [
  "cc",
 ]
 
 [[package]]
 name = "log"
-version = "0.4.11"
+version = "0.4.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4fabed175da42fed1fa0746b0ea71f412aa9d35e76e95e59b192c64b9dc2bf8b"
+checksum = "fcf3805d4480bb5b86070dcfeb9e2cb2ebc148adb753c5cca5f884d1d65a42b2"
 dependencies = [
  "cfg-if 0.1.10",
 ]
